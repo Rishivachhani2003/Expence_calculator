@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/img_background"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Page"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/et1"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_backgruond"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_backgruond"
+        android:hint="Password:"
+        android:padding="20dp"
+        android:id="@+id/password_reg"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        />
+
+
+    <Button
+        android:background="@drawable/loginbtn_backgruond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Registration"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@+id/btn_reg"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Already have an account?Sign in here"
+        android:padding="5dp"
+        android:id="@+id/si"
+        android:textColor="@color/black"
+        />
+
+
+
+</LinearLayout>
