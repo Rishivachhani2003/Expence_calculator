@@ -126,16 +126,7 @@ public class ExpenseFragment<obj_firebase, MyViewHolder extends RecyclerView.Vie
                 viewHolder.setExpenseType(model.getType());
                 viewHolder.setExpenseAmmount(model.getAmmount());
                 viewHolder.setExpenseDate(model.getDate());
-//                viewHolder.setDate(model.getDate());
-//                viewHolder.setType(model.getType());
-//                viewHolder.setNote(model.getNote());
-//                viewHolder.setAmmount(model.getAmmount());
-//
 
-//                holder.setDate(model.getDate());
-//                holder.setType(model.getType());
-//                holder.setNote(model.getNote());
-//                holder.setAmmount(model.getAmmount());
 
             }
 
@@ -149,51 +140,6 @@ public class ExpenseFragment<obj_firebase, MyViewHolder extends RecyclerView.Vie
 }
 
 
-
-//
-//
-//
-//
-//
-//      FirebaseRecyclerAdapter<Data,MyViewHolder> adapter =new FirebaseRecyclerAdapter<Data, MyViewHolder>(Data.class, R.layout.expense_recycler_data,
-//                MyViewHolder.class,
-//                mExpenseDatabase) {
-//            @Override
-//            protected void onBindViewHolder(@NonNull MyViewHolder viewHolder, int position , @NonNull Data model) {
-//                viewHolder.setDate(model.getDate());
-//                viewHolder.setType(model.getType());
-//                viewHolder.setNote(model.getNote());
-//                viewHolder.setAmmount(model.getAmmount());
-//
-//                viewHolder.mView.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        post_Key=getRef(position).getKey();
-//                        type= model.getType();
-//                        note= model.getNote();
-//                        ammount= model.getAmmount();
-//
-//                        updateDataItem();
-//
-//                    }
-//                });
-//
-//
-//
-//            }
-//
-//            @NonNull
-//            @Override
-//            public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int position) {
-//
-//
-//                return null;
-//            }
-//        };
-//        recyclerView.setAdapter(adapter);
-//
-//
-//    }
 
     class MyViewHolder extends RecyclerView.ViewHolder{
 

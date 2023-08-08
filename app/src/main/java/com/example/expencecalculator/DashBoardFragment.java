@@ -449,33 +449,8 @@ public class DashBoardFragment extends Fragment {
         mRecyclerExpense.setAdapter(expenseAdapter);
     }
 
-     /*   FirebaseRecyclerAdapter<Data,ExpenseViewHolder>expenseAdapter=new FirebaseRecyclerAdapter<Data, ExpenseViewHolder>(
-                Data.class,
-                R.layout.dashboard_expense,
-                ExpenseViewHolder.class,
-                mExpenseDatabase
-        ) {
-            @Override
-            protected void onBindViewHolder(@NonNull ExpenseViewHolder viewHolder, int position, @NonNull Data model) {
-                viewHolder.setExpenseType(model.getType());
-                viewHolder.setExpenseAmmount(model.getAmmount());
-                viewHolder.setExpenseDate(model.getDate());
-
-            }
-
-            @NonNull
-            @Override
-            public ExpenseViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-                return null;
-            }
-        };*/
-
-//        mRecyclerExpense.setAdapter(incomeAdapter);
 
 
-//    }
-
-//    // for income data
 
         class IncomeViewHolder extends RecyclerView.ViewHolder {
 

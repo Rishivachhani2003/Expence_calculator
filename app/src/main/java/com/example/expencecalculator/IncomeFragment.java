@@ -147,57 +147,8 @@ public class IncomeFragment<obj_firebase,MyViewHolder extends RecyclerView.ViewH
         };
         recyclerView.setAdapter(incomeAdapter);
     }
-//        mRecyclerIncome.setAdapter(incomeAdapter);
 
 
-//
-//
-//
-//
-//
-//
-//        FirebaseRecyclerAdapter<Data,MyViewHolder>adapter=new FirebaseRecyclerAdapter<Data,MyViewHolder>(
-//                Data.class,
-//                income_recycler_data,
-//                MyViewHolder.class,
-//                mIncomeDatabase)
-//        {
-//
-//
-//            @NonNull
-//            @Override
-//            public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-//
-//                return null;
-//            }
-//
-//            @Override
-//            protected void onBindViewHolder( MyViewHolder viewHolder, int position ,   Data model) {
-//                viewHolder.setType(model.getType());
-//                viewHolder.setNote(model.getNote());
-//                viewHolder.setDate(model.getDate());
-//                viewHolder.setAmmount(model.getAmmount());
-//
-//                viewHolder.mView.setOnClickListener(new View.OnClickListener() {
-//                    @Overridetas
-//                    public void onClick(View view) {
-//
-//                        post_Key=getRef(position).getKey();
-//                        type=model.getType();
-//                        note= model.getNote();
-//                        ammount= model.getAmmount();
-//
-//                        updateDataItem();
-//                    }
-//                });
-//            }
-//        };
-//
-//        recyclerView.setAdapter(adapter);
-//
-//
-//
-//    }
 
         class MyViewHolder extends RecyclerView.ViewHolder {
 

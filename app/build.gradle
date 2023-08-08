@@ -37,12 +37,14 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.firebase:firebase-auth:21.0.8'
     implementation 'com.google.ar.sceneform:filament-android:1.17.1'
-//    implementation 'com.google.firebase:firebase-database:20.0.6'
+    implementation 'com.google.firebase:firebase-database:20.0.6'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.google.firebase:firebase-database:20.1.0'
     //   implementation 'com.google.firebase:firebase-bom:30.4.1'
     implementation 'com.google.firebase:firebase-database'
+    implementation 'androidx.annotation:annotation-jvm:1.6.0'
+    implementation 'androidx.fragment:fragment:1.4.1'
 
 //    implementation 'com.firebaseui:firebase-ui-database:8.0.0'
 
